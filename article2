@@ -14,26 +14,20 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <header>
-    <img src="super-goodies.png" alt="logo du blog goodies">
-          <h1>Le blog du Goodies</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lacinia malesuada pellentesque. <em>Curabitur sed magna vehicula</em>, efficitur diam in, maximus erat.
-          <p>Donec sed ex tristique, commodo enim in, tincidunt ligula. Ut consequat commodo arcu, quis eleifend turpis convallis eu. Proin gravida sit amet risus molestie vehicula.</p><br/>
-          <h2>Toute l'actualité autour des goodies</h2>
-          <p>Curabitur condimentum rhoncus dui ut varius. <em>Nullam dapibus finibus nisl vel dictum</em>. In sit amet placerat felis. Phasellus lacinia dignissim luctus. Donec vel ex porta ante bibendum vestibulum.</p>
-          <p>Aliquam non lorem erat. <strong>Curabitur pretium</strong>, lacus et facilisis accumsan, quam nisi feugiat diam, sit amet condimentum enim magna ut nisi.</P>
-  </header>
+          <h1>Article super Goodies</h1>
+          <p>Donec et lectus nibh. Vivamus faucibus risus eu vestibulum tempor. Nullam lobortis sem at lacus <strong>luctus gravida</strong>.</p>
+          <p>Aliquam ullamcorper, ante nec euismod aliquet, mi elit laoreet odio, eu bibendum eros lectus quis leo. <em>Sed imperdiet, nisl non consequat ullamcorper</em>,</p>
+          <p>lorem justo cursus velit, id condimentum arcu est iaculis arcu.</p>
+          <p>Nullam luctus magna neque, sed ornare ante hendrerit vitae. Proin egestas leo vitae efficitur tincidunt</p>
     <nav>
         <ul>
           <li><a href="accueil.html">Accueil</a></li>
           <li><a href="biographie.html">Biographie</a></li>
-  <!-- vous ne comprenez pas mon code source ? rendez-vous sur ma page contact, on en discute :) -->
           <li><a href="contact.html">Contact</a></li>
-        </ul>
     </nav>
   <section>
     <article>
