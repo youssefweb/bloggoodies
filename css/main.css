@@ -97,9 +97,82 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*Start global Classes*/
 
 
 
+
+.text-white
+{
+  color: white;
+}
+
+nav
+{
+  background-color: #1a1a1a;
+}
+
+
+/*End global Classes*/
+
+
+
+
+/*Start common rules*/
+
+/*End common rules*/
+
+
+
+
+/* Start Header style*/
+header
+{
+  background-color: #ffcc00ff;
+}
+
+
+/*End header style*/
+
+
+
+
+/* Start footer style*/
+footer
+{
+  background-color: #1a1a1a;
+}
+  color: #000000;
+/*End footer style*/
+
+
+
+/* Start index main style*/
+
+/*End index main style*/
+
+
+
+
+/* Start contact main style*/
+
+/*End contact main style*/
+
+
+
+
+/* Start biographie main style*/
+
+td
+{
+  border: 1px solid black;
+}
+table
+{
+  border-collapse: collapse;
+}
+
+/*End biographie main style*/
 
 
 

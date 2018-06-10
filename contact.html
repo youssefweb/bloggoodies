@@ -14,23 +14,21 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="style.css">
 </head>
 
 <!-- Corp de la page (contenu principal) -->
 <body>
-  <p><img src="img/super-goodies-youssef-ajaajji.png" alt="logo du blog goodies"/>
-  </p>
 
                           <!-- ########## Start Header ########## -->
 
 <header>
+  <img src="img/super-goodies-youssef-ajaajji.png" alt="logo du blog goodies"/>
 <!-- Navigation -->
   <nav>
     <ul>
-      <li><a href="accueil.html">Accueil</a></li>
-      <li><a href="biographie.html">Biographie</a></li>
-      <li><a href="contact.html">Contact</a></li>
+      <li><a href="accueil.html"class="text-white">Accueil</a></li>
+      <li><a href="biographie.html"class="text-white">Biographie</a></li>
+      <li><a href="contact.html"class="text-white">Contact</a></li>
     </ul>
   </nav>
 <!-- Fin de page de navigation -->
@@ -46,17 +44,16 @@
         <p>Donec sed ex tristique, commodo enim in, tincidunt ligula. Ut consequat commodo arcu, quis eleifend turpis convallis eu. Proin gravida sit amet risus molestie vehicula.</p><br/>
     <h2>Le formulaire de contact</h2>
         <form method="post" action="traitement.php">
-          <label for="pseudo"> Entrez un pseudo</label>
+          <label for="pseudo"> Entrez votre pseudo</label>
           <input type="text" name="pseudo" id="pseudo"><br/><br/>
           <label for="number"> Entrez un mot de passe</label>
           <input type="password"><br/><br/>
           <label> <for="email"> Entrez une adresse mail</label>
           <input type="email"><br/><br/>
+          <label for="commenter"> Poster votre message</label>
+          <textarea name="commenter" id="commenter"></textarea><br/><br/>
           <input type="submit" value="Envoyer">
-          <label for="commenter"> Merci de laisser votre message</label>
-          <textarea name="commenter" id="commenter"></textarea>
         </form>
-        <p>Après validation de votre demande, une réponse vous sera apportée sous 48/72h</p>
   </section>
 </main>
                             <!-- ########## End Main ########## -->
@@ -65,10 +62,10 @@
                             <!-- ########## Start Footer ########## -->
 
 <footer>
-          <p>Copyright 2018. Youssef AJAAJJI</p>
-          <p>Centre de formation ADEP Roubaix, Thomas GOSSART</p>
-          <p>Reseau social I</p>
-          <p>Reseau social II</p>
+          <p class="text-white">Copyright 2018. Youssef AJAAJJI</p>
+          <p class="text-white">Centre de formation ADEP Roubaix, Thomas GOSSART</p>
+          <p class="text-white">Suivez- moi sur <a href="https://twitter.com/ajaajji">Twitter</a></p>
+          <p class="text-white">Rejoignez-moi sur <a href="https://www.linkedin.com/in/youssef-ajaajji-260973164"> Linkedin</a></p>
 </footer>
 
                             <!-- ########## End Footer ########## -->
